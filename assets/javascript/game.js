@@ -34,7 +34,7 @@ $(document).ready(function(){
 	console.log("ready");
 var targetNumber = randomNumber [Math.floor(Math.random() * randomNumber.length)];
 console.log(targetNumber);
-$("#ranNum").html(targetNumber);
+$("#ranNum").html("Match this number: " + targetNumber);
 
 $(".img1").on("click", function(){
 
